@@ -48,7 +48,7 @@ export default function Navbar() {
             </button>
           </div>
         </div>
-        <div className="md:hidden flex items-center">
+        <div className="lg:hidden flex items-center">
           <button
             onClick={toggleMenu}
             className="text-[#cc0000] focus:outline-none"
@@ -69,11 +69,11 @@ export default function Navbar() {
           </button>
         </div>
         <div
-          className={`md:flex ${
+          className={`lg:flex ${
             isMenuOpen ? "block" : "hidden"
-          } absolute md:relative top-full left-0 w-full md:w-auto bg-white md:bg-transparent shadow-md md:shadow-none rounded-b-xl px-8 pb-2`}
+          } absolute lg:relative top-full left-0 w-full lg:w-auto bg-white lg:bg-transparent shadow-md lg:shadow-none rounded-b-xl px-8 pb-2`}
         >
-          <ul className="flex flex-col md:flex-row items-end space-y-4 md:space-y-0 md:space-x-6 p-4 md:p-0">
+          <ul className="flex flex-col lg:flex-row items-end space-y-4 lg:space-y-0 lg:space-x-6 p-4 lg:p-0">
             <li>
               <Link to="/" className="text-[#ff0404] font-extrabold">
                 Beranda

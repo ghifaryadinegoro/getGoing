@@ -3,10 +3,10 @@ import { Link } from "react-router-dom";
 export default function Footer() {
   return (
     <footer>
-      <div className="bg-[#cc0000] py-8 px-4 md:px-24 text-white flex flex-col md:flex-row justify-between">
-        <div className="mb-12 md:mb-0">
+      <div className="bg-[#cc0000] py-8 px-4 lg:px-24 text-white flex flex-col lg:flex-row justify-between">
+        <div className="mb-12 lg:mb-0">
           <h5 className="text-lg font-bold uppercase mb-4">Informasi Kontak</h5>
-          <div className="flex flex-wrap md:flex-col md:max-w-[300px] gap-y-1 gap-x-2">
+          <div className="flex flex-wrap lg:flex-col lg:max-w-[300px] gap-y-1 gap-x-2">
             <div className="flex items-center gap-2">
               <img
                 src="https://getgoing.co.id/content/img/icon/pin.png"
@@ -62,7 +62,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="mb-12 md:mb-0">
+        <div className="mb-12 lg:mb-0">
           <img
             src="https://getgoing.co.id/content/img/MockupApp.png"
             alt="footer-app"
@@ -70,9 +70,9 @@ export default function Footer() {
           />
         </div>
 
-        <div className="mb-12 md:mb-0">
+        <div className="mb-12 lg:mb-0">
           <h5 className="text-lg font-bold uppercase">Download Di</h5>
-          <div className="py-4 flex md:flex-col gap-4 items-center">
+          <div className="py-4 flex lg:flex-col gap-4 items-center">
             <a
               href="https://apps.apple.com/us/app/getgoing/id1602015694"
               target="blank"
@@ -145,8 +145,8 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="bg-black p-8 md:px-24 flex flex-col md:flex-row gap-6 items-center justify-center md:justify-between">
-        <p className="text-[#cdd0d4] text-sm text-center md:text-left">
+      <div className="bg-black p-8 lg:px-24 flex flex-col lg:flex-row gap-6 items-center justify-center lg:justify-between">
+        <p className="text-[#cdd0d4] text-sm text-center lg:text-left">
           © 2024 - PT. Gue Eksplorasi Terus. All rights reserved.
         </p>
         <div className="flex items-center justify-center gap-2">

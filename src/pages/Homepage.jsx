@@ -24,7 +24,7 @@ export default function Homepage() {
       <main>
         <HeroSection />
 
-        <section className="mb-12 md:mb-6 px-4 md:px-24">
+        <section className="mb-12 lg:mb-6 px-4 lg:px-24">
           <h1 className="text-3xl font-bold mb-6">
             Sedang <span className="text-[#cc0000]">Populer</span>
           </h1>
@@ -56,7 +56,7 @@ export default function Homepage() {
           </div>
         </section>
 
-        <section className="mb-12 md:mb-6 px-4 md:px-24">
+        <section className="mb-12 lg:mb-6 px-4 lg:px-24">
           <div className="text-center mb-12">
             <h1 className="text-3xl font-bold">
               “Better to <span className="text-[#cc0000]">SEE</span> something
@@ -78,7 +78,7 @@ export default function Homepage() {
                 </h3>
               </div>
 
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-10 p-10">
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 p-10">
                 <div className="flex items-center gap-2">
                   <img
                     src="	https://getgoing.co.id/content/img/icon/check-circle.png"
@@ -122,7 +122,7 @@ export default function Homepage() {
               </div>
             </div>
 
-            <div className="bg-gradient-to-r from-[#d20606] to-[#ff9e22] rounded-l-[4rem] p-6 md:p-12 grid grid-cols-2 gap-4">
+            <div className="bg-gradient-to-r from-[#d20606] to-[#ff9e22] rounded-l-[4rem] p-6 lg:p-12 grid grid-cols-2 gap-4">
               <div className="bg-slate-300 bg-opacity-25 rounded-lg p-4 flex flex-col gap-2">
                 <div className="bg-white rounded-lg w-14 h-14 flex justify-center items-center">
                   <img
@@ -180,7 +180,7 @@ export default function Homepage() {
           <div className=""></div>
         </section>
 
-        <section className="mb-12 md:mb-6 px-4 md:px-24">
+        <section className="mb-12 lg:mb-6 px-4 lg:px-24">
           <h1 className="text-3xl font-bold mb-6">
             Kota <span className="text-[#cc0000]">Populer</span>
           </h1>
@@ -212,7 +212,7 @@ export default function Homepage() {
           </div>
         </section>
 
-        <section className="md:px-24">
+        <section className="lg:px-24">
           <div className="text-center mb-12">
             <h1 className="text-4xl font-bold mb-6">
               Kata <span className="text-[#cc0000]">Mereka</span>
@@ -225,7 +225,7 @@ export default function Homepage() {
           <TestimonySection />
         </section>
 
-        <section className="bg-[#f8f9fa] px-4 md:px-24 py-24">
+        <section className="bg-[#f8f9fa] px-4 lg:px-24 py-24">
           <div className="flex justify-between items-center mb-12">
             <h1 className="text-3xl font-bold mb-3">Baca juga</h1>
             <Link to="https://getgoing.co.id/blog">
@@ -252,7 +252,7 @@ export default function Homepage() {
             </Link>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
             {articles.map((article) => (
               <ArticleCard article={article} />
             ))}

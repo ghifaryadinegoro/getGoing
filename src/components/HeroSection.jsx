@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 export default function HeroSection() {
   return (
-    <section className="mb-12 md:mb-6 px-4 md:px-24">
+    <section className="mb-12 lg:mb-6 px-4 lg:px-24">
       <Swiper
         modules={[Navigation, Autoplay]}
         spaceBetween={30}
@@ -19,11 +19,11 @@ export default function HeroSection() {
         style={{ "--swiper-navigation-color": "#cc0000" }}
       >
         <SwiperSlide>
-          <div className="md:flex md:items-center md:gap-24">
+          <div className="lg:flex lg:items-center lg:gap-24">
             <img
               src="https://firebasestorage.googleapis.com/v0/b/getgoing-prod.appspot.com/o/webImages%2F1689692364277swiss%202%20(1)-min.JPG?alt=media&token=e4b0843f-875b-4bbe-b8bc-642318848bca"
               alt="img1"
-              className="w-full md:w-1/2 h-64 md:h-80 object-cover rounded-lg"
+              className="w-full lg:w-1/2 h-64 lg:h-80 object-cover rounded-lg"
             />
             <div className="flex flex-col items-center justify-center text-center px-1">
               <h3 className="text-[#9da4aa] mb-3 tracking-[.25em]">
@@ -62,20 +62,20 @@ export default function HeroSection() {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="md:flex md:items-center md:gap-24 md:justify-between">
+          <div className="lg:flex lg:items-center lg:gap-24 lg:justify-between">
             <img
               src="https://firebasestorage.googleapis.com/v0/b/getgoing-prod.appspot.com/o/webImages%2F1689692183775IMG_1600.JPG?alt=media&token=0da0739c-fc65-4944-80d9-9e6b45d7af11"
               alt="img2"
-              className="w-full md:w-1/2 h-64 md:h-80 object-cover rounded-lg"
+              className="w-full lg:w-1/2 h-64 lg:h-80 object-cover rounded-lg"
             />
-            <div className="flex flex-col px-1 md:w-1/2">
+            <div className="flex flex-col px-1 lg:w-1/2">
               <h3 className="text-[#9da4aa] text-center mb-6 tracking-[.25em]">
                 APA YANG GETGOING PUNYA ?
               </h3>
 
               <Link
                 to={"https://getgoing.co.id/gettrip"}
-                className="flex w-fit items-center gap-4 mb-4 md:mb-12 transition-transform transform duration-300 hover:-translate-y-2"
+                className="flex w-fit items-center gap-4 mb-4 lg:mb-12 transition-transform transform duration-300 hover:-translate-y-2"
               >
                 <div className="bg-gray-100 rounded-full p-3">
                   <img
@@ -96,7 +96,7 @@ export default function HeroSection() {
 
               <Link
                 to={"https://getgoing.co.id/getguide"}
-                className="flex items-center gap-4 mb-4 md:mb-12 transition-transform transform duration-300 hover:-translate-y-2 w-fit"
+                className="flex items-center gap-4 mb-4 lg:mb-12 transition-transform transform duration-300 hover:-translate-y-2 w-fit"
               >
                 <div className="bg-gray-100 rounded-full p-3">
                   <img
@@ -115,7 +115,7 @@ export default function HeroSection() {
 
               <Link
                 to={"https://getgoing.co.id/getinfo"}
-                className="flex items-center gap-4 mb-4 md:mb-12 transition-transform transform duration-300 hover:-translate-y-2 w-fit"
+                className="flex items-center gap-4 mb-4 lg:mb-12 transition-transform transform duration-300 hover:-translate-y-2 w-fit"
               >
                 <div className="bg-gray-100 rounded-full p-3">
                   <img

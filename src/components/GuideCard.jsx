@@ -8,7 +8,7 @@ export default function GuideCard(props) {
           <img
             src={guide.image}
             alt={guide.name}
-            className="md:w-52 md:h-52 w-80 h-80 object-cover rounded-xl"
+            className="lg:w-52 lg:h-52 w-80 h-80 object-cover rounded-xl"
           />
           <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black opacity-50 rounded-xl"></div>
         </div>

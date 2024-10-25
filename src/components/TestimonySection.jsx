@@ -17,7 +17,7 @@ export default function TestimonySection(props) {
       <img
         src="https://getgoing.co.id/content/img/icon/quote.png"
         alt="quote"
-        className="absolute top-0 -left-5  md:-left-10 -z-50 w-40 h-40"
+        className="absolute top-0 -left-5  lg:-left-10 -z-50 w-40 h-40"
       />
       <div className="flex flex-col lg:flex-row items-center lg:items-stretch gap-8 lg:gap-16">
         <div className="w-full lg:w-1/2">
@@ -71,7 +71,7 @@ export default function TestimonySection(props) {
           </div>
         </div>
         <div className="w-full lg:w-1/2 flex justify-center items-center">
-          <div className="w-full max-w-sm md:max-w-lg lg:max-w-xl">
+          <div className="w-full max-w-sm lg:max-w-lg lg:max-w-xl">
             <Swiper
               modules={[Controller]}
               slidesPerView={1}
