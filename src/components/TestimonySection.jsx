@@ -71,7 +71,7 @@ export default function TestimonySection(props) {
           </div>
         </div>
         <div className="w-full lg:w-1/2 flex justify-center items-center">
-          <div className="w-full max-w-sm lg:max-w-lg lg:max-w-xl">
+          <div className="w-full max-w-sm lg:max-w-lg">
             <Swiper
               modules={[Controller]}
               slidesPerView={1}

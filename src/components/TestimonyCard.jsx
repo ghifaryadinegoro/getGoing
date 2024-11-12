@@ -6,7 +6,7 @@ export default function TestimonyCard(props) {
       <img
         src={testimony.image}
         alt={testimony.name}
-        className="w-full h-48 lg:h-64 lg:h-72 object-cover mb-3"
+        className="w-full h-48 lg:h-64 object-cover mb-3"
       />
       <div className="text-center">
         <p className="font-bold">{testimony.name}</p>
